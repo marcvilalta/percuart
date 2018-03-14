@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'GENUINE', 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
@@ -43,12 +43,12 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #00ff00;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #aaffaa;
 }
 
 #mainNav {
@@ -118,6 +118,7 @@ a:focus, a:hover {
     color: white;
   }
 }
+
 
 .masthead {
   display: table;
@@ -222,16 +223,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #059900;
+  border: 1px solid #059900;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid #059900;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #059900;
 }
 
 ul.banner-social-buttons {
