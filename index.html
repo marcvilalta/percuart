@@ -99,9 +99,32 @@
         <div class="col-lg-8 mx-auto">
           <h2>Gaudeix-nos</h2>
           <p>Sent el que fem a travès de teva pantalla.</p>
-          <a target="_blank" href="https://www.youtube.com/watch?v=VY0VU-1seO4" class="btn btn-default btn-lg">Mira els videos!</a>
-
+          <a href="#" class="launch-modal" data-modal-id="modal-video">
+              <span class="btn btn-default btn-lg">
+                Mira els videos!
+              </span>
+          </a>
         </div>
+
+        <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-video">
+                            <div class="embed-responsive embed-responsive-16by9">
+<iframe id="video-frame" width="560" height="315" src="https://www.youtube.com/embed/VY0VU-1seO4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
       </div>
     </section>
 
@@ -137,6 +160,7 @@
         </div>
       </div>
     </section>
+
 
     <section>
 
@@ -378,8 +402,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-   
+    <script src="js/grayscale.js"></script>
 
   </body>
 
