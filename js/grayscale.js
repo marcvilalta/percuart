@@ -1,3 +1,8 @@
+$('.launch-modal').on('click', function(e){
+    e.preventDefault();
+    $( '#' + $(this).data('modal-id') ).modal();
+});
+
 (function($) {
   "use strict"; // Start of use strict
 
